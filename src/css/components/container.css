@@ -1,5 +1,76 @@
 .container {
     overflow: hidden;
-    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    /* max-width: 350px; */
+    margin: 1rem;
+    padding: 1.5rem;
+
+    color: var(--white);
+
+    background-color: var(--very-dark-blue-fg);
     border-radius: 1rem;
+
+    .preview {
+        aspect-ratio: 1/1;
+        width: 100%;
+
+        background-size: cover;
+        border-radius: 0.5em;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        max-width: 25ch;
+        font-size: 1.125rem;
+        font-weight: 300;
+        color: var(--soft-blue);
+    }
+
+    span {
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: var(--soft-blue);
+    }
+
+    .username {
+        color: var(--white);
+    }
+
+    .price {
+        font-size: 18px;
+        color: var(--cyan);
+    }
+
+    hr {
+        border: 0.5px solid var(--very-dark-blue-line);
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .flex-row {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .user {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        img {
+            max-width: 2.5rem;
+            border: 1px solid var(--white);
+            border-radius: 50%;
+        }
+    }
 }
