@@ -1,0 +1,8 @@
+:root {
+    --white: hsl(0deg 0% 100%);
+    --soft-blue: hsl(215deg 51% 70%);
+    --cyan: hsl(178deg 100% 50%);
+    --very-dark-blue-bg: hsl(217deg 54% 11%);
+    --very-dark-blue-fg: hsl(216deg 50% 16%);
+    --very-dark-blue-line: hsl(215deg 32% 27%);
+}
